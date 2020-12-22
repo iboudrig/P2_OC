@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Map;
 
-public class WriteSymptomStatistics implements ISymtomWriter {
+public class WriteSymptomStatistics implements ISymptomWriter {
     private String filepath;
 
     public WriteSymptomStatistics(String filepath) {

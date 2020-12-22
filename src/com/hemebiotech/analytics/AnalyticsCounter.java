@@ -12,7 +12,7 @@ public class AnalyticsCounter {
         WriteSymptomStatistics writer = new WriteSymptomStatistics(config.getResultsFile());
         SymptomStatistics symptomStatistics = new SymptomStatistics();
 
-        List<String> symptoms = reader.GetSymptoms();
+        List<String> symptoms = reader.getSymptoms();
         Map<String, Long> counts = symptomStatistics.symptomCounter(symptoms);
 
         System.out.println("Printing results into "+config.getResultsFile()+" ...");
