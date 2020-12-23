@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.security.InvalidParameterException;
 import java.util.Properties;
 
+/**
+ *This class shows the path of symptoms.txt and result.out
+ */
+
 public class Config {
     private String symptomsFile;
     private String resultsFile;

@@ -1,4 +1,5 @@
 fever
+covid
 dialated pupils
 dry mouth
 inflamation
@@ -8,8 +9,10 @@ high blood pressure
 stiff neck
 cough
 insomnia
+covid
 headache
 insomnia
+covid
 constricted pupils
 nausea
 cough
