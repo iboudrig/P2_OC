@@ -5,6 +5,10 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
+/**
+ * Implementation class
+ */
+
 public class SymptomStatistics implements SymptomsCounter{
     @Override
     public Map<String, Long> symptomCounter(List<String> symptoms) {

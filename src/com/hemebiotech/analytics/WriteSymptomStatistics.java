@@ -5,6 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Map;
 
+/**
+ * Implementation class related to writing symptoms statistics to a file
+ *
+ */
+
 public class WriteSymptomStatistics implements ISymptomWriter {
     private String filepath;
 
